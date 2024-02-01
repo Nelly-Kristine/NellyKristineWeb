@@ -1,0 +1,94 @@
+/*det er et problem med at det kommer en java script på nettsiden så denne får alt java script vekk*/
+script{
+    display: none !important;
+}
+  
+/*justify-content gjør at det som er i body blir puttet i center*/
+/*background-image den finder bildet mitt til å bli brukt etter*/
+/*background-size den sier hvor stor bilde skal være*/
+/*background-repeat gjør at man kan se flere ganger bildet, repaet-y gjør at bildene går nedover*/
+/*font-family det hvordan typpe font man skal ha på teksten*/
+body { 
+    justify-content: center;
+    background-image: url(nelly\ bølge\ hele.jpg);
+    background-size: 100% 1000px;
+    background-repeat: repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**/
+button {
+    border: none;
+    background-color: rgb(152, 201, 216);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 92%;
+}
+
+/*Float right gjør at menyen ligger på høyre siden*/
+/*Width gjør at menyen er i breden 250 pixel*/
+/*Margin-top lager en rom mellom utenfor definerte grense*/
+/*background-color */
+.MenuDiv {
+    float:right;
+    width:250px;
+    margin-top: 20%;
+    background-color: #DCF2F1;
+}
+
+/*width*/
+.MenuItem {
+    width:150px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0f1035fd;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    font-weight: 700;
+    color: #365486;
+}
+
+.MainContent {
+    color:whitesmoke;
+    background-color: #0f1035;
+    border-radius: 25px;
+    float: left;
+    width: 800px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.MainContent2 {
+    color: #7FC7D9;
+    background-color: #0f1035;
+    border-radius: 25px;
+    float: left;
+    width: 800px;
+    height: 1600px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.ContactInformation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+td {
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+}
