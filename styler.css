@@ -16,7 +16,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/**/
+/*knappene på høre side bakgrunn*/
 button {
     border: none;
     background-color: rgb(152, 201, 216);
@@ -41,7 +41,7 @@ button {
     background-color: #DCF2F1;
 }
 
-/*width*/
+/*knappene på høre siden, hvordan teksten skal se ut*/
 .MenuItem {
     width:150px;
     background-color: transparent;
@@ -50,18 +50,20 @@ button {
     margin-left: 20px;
 }
 
+/*knappene på høre siden, hvordan teksten skal se ut*/
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
     font-weight: 500;
     color: #0f1035fd;
 }
 
+/*når man skal trykke på en knapp på siden*/
 a:hover, a:active {
     text-decoration: none;
     font-weight: 700;
     color: #365486;
 }
-
+/*bakgrunn på hovedside */
 .MainContent {
     color:whitesmoke;
     background-color: #0f1035;
@@ -72,22 +74,26 @@ a:hover, a:active {
     margin-left: 5%;
     margin-top: 10%;
 }
+
+/*bakgrunn på porteføljesiden */
 .MainContent2 {
     color: #7FC7D9;
     background-color: #0f1035;
     border-radius: 25px;
     float: left;
     width: 800px;
-    height: 1600px;
+    height: 1800px;
     margin-left: 5%;
     margin-top: 10%;
 }
 
+/*kontakt teksten liste på kontaktinfo*/
 .ContactInformation {
     margin-top: 20px;
     text-align: center;
 }
 
+/*hvordan den største teksten ser ut*/
 td {
     padding: 5px 5px 5px 5px;
     width: 200px;
